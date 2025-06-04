@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Smallfeed</title>
+	<meta name="application-name" content="tinyfeed">
+	<meta name="application-source" content="https://github.com/TheBigRoomXXL/tinyfeed">
+	<meta name="author" content="Sebastien LOVERGNE">
+	<meta name="description" content="RSS and Atom feeds aggregator">
+	<meta name="referrer" content="same-origin">
+	<link rel="alternate" type="application/atom+xml" title="RSS Feed" href="/feed.xml" />
+    <link rel="icon" href="https://fav.farm/📰" />
+
+	<style>
+		:root {
+			color-scheme: dark light;
+			--primary: #0AC8F5;
+			--secondary: #D2F00F;
+			--txt: #cfcfcf;
+			--bd: #c0c0c0;
+			--bg: #1D1F21;
+			font-size: min(calc(.5rem + 0.75vw), 16px);
+		}
+
+		@media (prefers-color-scheme: light) {
+			:root {
+				--txt: #444444;
+				--bd: #333333;
+				--bg: white;
+				--primary: #207D92;
+				--secondary: #6A7A06;
+			}
+		}
+
+		body {
+			font-family: Calibri, 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+			color: var(--txt);
+			background: var(--bg);
+			max-width: 50rem;
+			width: 100%;
+			margin: 0.5em auto 2em;
+			line-height: 1.25em;
+		}
+
+		header>h1 {
+			display: inline-block;
+			padding: 0 0.5em;
+			margin-bottom: 0.25em;
+		}
+
+		h2 {
+			font-size: 1rem;
+			display: inline;
+		}
+
+		ol {
+			padding-left: 5ch;
+		}
+
+		li {
+			margin-block-start: 1em;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		a:link {
+			color: var(--primary)
+		}
+
+		a:visited {
+			color: var(--secondary)
+		}
+
+		a:hover {
+			opacity: 0.8
+		}
+
+		small {
+			padding-top: 0.25rem;
+			font-size: 0.95rem;
+		}
+
+		small>a:link,
+		small>a:visited {
+			color: var(--txt);
+		}
+
+		footer {
+			padding: 2rem 1rem;
+		}
+
+		.feed-list {
+			display: flex;
+			flex-wrap: wrap;
+			border: 0.5px solid var(--bd);
+		}
+
+		.feed-list>div {
+			flex-grow: 1;
+			padding: 0.5em 0.5em 0.35em 0.5em;
+			text-align: center;
+			vertical-align: middle;
+			border: 0.5px solid var(--bd);
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Smallfeed</h1>
+		
+	</header>
+	<hr>
+	<main>
+		<ol>
+			
+			<li>
+				<a href=https://blog.smallweb.run/posts/v0-26/ target="_blank">
+					<h2>Smallweb 0.26</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2025-04-30">2025-04-30</time>
+					|
+					<a href="https://blog.smallweb.run" target="_blank">blog.smallweb.run</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://blog.smallweb.run/posts/v0-25/ target="_blank">
+					<h2>Smallweb 0.25</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2025-03-31">2025-03-31</time>
+					|
+					<a href="https://blog.smallweb.run" target="_blank">blog.smallweb.run</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://jvns.ca/blog/2025/03/07/escape-code-standards/ target="_blank">
+					<h2>Standards for ANSI escape codes</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2025-03-07">2025-03-07</time>
+					|
+					<a href="https://jvns.ca" target="_blank">jvns.ca</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://blog.smallweb.run/posts/v0-24/ target="_blank">
+					<h2>Smallweb 0.24</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2025-03-03">2025-03-03</time>
+					|
+					<a href="https://blog.smallweb.run" target="_blank">blog.smallweb.run</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://blog.smallweb.run/posts/v0-23/ target="_blank">
+					<h2>Smallweb 0.23</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2025-02-25">2025-02-25</time>
+					|
+					<a href="https://blog.smallweb.run" target="_blank">blog.smallweb.run</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://blog.smallweb.run/posts/v0-22/ target="_blank">
+					<h2>Smallweb 0.22</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2025-02-17">2025-02-17</time>
+					|
+					<a href="https://blog.smallweb.run" target="_blank">blog.smallweb.run</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/ target="_blank">
+					<h2>How to add a directory to your PATH</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2025-02-13">2025-02-13</time>
+					|
+					<a href="https://jvns.ca" target="_blank">jvns.ca</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://blog.smallweb.run/posts/v0-21/ target="_blank">
+					<h2>Smallweb 0.21</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2025-02-12">2025-02-12</time>
+					|
+					<a href="https://blog.smallweb.run" target="_blank">blog.smallweb.run</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/ target="_blank">
+					<h2>Some terminal frustrations</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2025-02-05">2025-02-05</time>
+					|
+					<a href="https://jvns.ca" target="_blank">jvns.ca</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/ target="_blank">
+					<h2>What's involved in getting a "modern" terminal setup?</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2025-01-11">2025-01-11</time>
+					|
+					<a href="https://jvns.ca" target="_blank">jvns.ca</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://blog.smallweb.run/posts/v0-20/ target="_blank">
+					<h2>Smallweb 0.20</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2025-01-09">2025-01-09</time>
+					|
+					<a href="https://blog.smallweb.run" target="_blank">blog.smallweb.run</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://blog.smallweb.run/posts/v0-19/ target="_blank">
+					<h2>Smallweb 0.19</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2024-12-16">2024-12-16</time>
+					|
+					<a href="https://blog.smallweb.run" target="_blank">blog.smallweb.run</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://jvns.ca/blog/2024/11/26/terminal-rules/ target="_blank">
+					<h2>"Rules" that terminal programs follow</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2024-12-12">2024-12-12</time>
+					|
+					<a href="https://jvns.ca" target="_blank">jvns.ca</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://blog.smallweb.run/posts/v0-18/ target="_blank">
+					<h2>Smallweb 0.18</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2024-12-09">2024-12-09</time>
+					|
+					<a href="https://blog.smallweb.run" target="_blank">blog.smallweb.run</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://blog.smallweb.run/posts/my-smallweb-setup/ target="_blank">
+					<h2>My Smallweb Setup</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2024-12-03">2024-12-03</time>
+					|
+					<a href="https://blog.smallweb.run" target="_blank">blog.smallweb.run</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/ target="_blank">
+					<h2>Why pipes sometimes get "stuck": buffering</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2024-11-29">2024-11-29</time>
+					|
+					<a href="https://jvns.ca" target="_blank">jvns.ca</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/ target="_blank">
+					<h2>Importing a frontend Javascript library without a build system</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2024-11-18">2024-11-18</time>
+					|
+					<a href="https://jvns.ca" target="_blank">jvns.ca</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://jvns.ca/blog/2024/11/09/new-microblog/ target="_blank">
+					<h2>New microblog with TILs</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2024-11-09">2024-11-09</time>
+					|
+					<a href="https://jvns.ca" target="_blank">jvns.ca</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://jvns.ca/blog/2024/10/31/ascii-control-characters/ target="_blank">
+					<h2>ASCII control characters in my terminal</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2024-10-31">2024-10-31</time>
+					|
+					<a href="https://jvns.ca" target="_blank">jvns.ca</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://jvns.ca/blog/2024/10/27/asn-ip-address-memory/ target="_blank">
+					<h2>Using less memory to look up IP addresses in Mess With DNS</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2024-10-27">2024-10-27</time>
+					|
+					<a href="https://jvns.ca" target="_blank">jvns.ca</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://jvns.ca/blog/2024/10/07/some-notes-on-upgrading-hugo/ target="_blank">
+					<h2>Some notes on upgrading Hugo</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2024-10-07">2024-10-07</time>
+					|
+					<a href="https://jvns.ca" target="_blank">jvns.ca</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://jvns.ca/blog/2024/10/01/terminal-colours/ target="_blank">
+					<h2>Terminal colours are tricky</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2024-10-01">2024-10-01</time>
+					|
+					<a href="https://jvns.ca" target="_blank">jvns.ca</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://jvns.ca/blog/2024/09/27/some-go-web-dev-notes/ target="_blank">
+					<h2>Some Go web dev notes</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2024-09-27">2024-09-27</time>
+					|
+					<a href="https://jvns.ca" target="_blank">jvns.ca</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://jvns.ca/blog/2024/09/12/reasons-i--still--love-fish/ target="_blank">
+					<h2>Reasons I still love the fish shell</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2024-09-12">2024-09-12</time>
+					|
+					<a href="https://jvns.ca" target="_blank">jvns.ca</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://jvns.ca/blog/2024/08/19/migrating-mess-with-dns-to-use-powerdns/ target="_blank">
+					<h2>Migrating Mess With DNS to use PowerDNS</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2024-08-19">2024-08-19</time>
+					|
+					<a href="https://jvns.ca" target="_blank">jvns.ca</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://jvns.ca/blog/2024/08/06/go-structs-copied-on-assignment/ target="_blank">
+					<h2>Go structs are copied on assignment (and other things about Go I'd missed)</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2024-08-06">2024-08-06</time>
+					|
+					<a href="https://jvns.ca" target="_blank">jvns.ca</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://jvns.ca/blog/2024/07/08/readline/ target="_blank">
+					<h2>Entering text in the terminal is complicated</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2024-07-08">2024-07-08</time>
+					|
+					<a href="https://jvns.ca" target="_blank">jvns.ca</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://jvns.ca/blog/2024/07/03/reasons-to-use-job-control/ target="_blank">
+					<h2>Reasons to use your shell's job control</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2024-07-03">2024-07-03</time>
+					|
+					<a href="https://jvns.ca" target="_blank">jvns.ca</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://jvns.ca/blog/2024/04/25/new-zine--how-git-works-/ target="_blank">
+					<h2>New zine: How Git Works!</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2024-06-03">2024-06-03</time>
+					|
+					<a href="https://jvns.ca" target="_blank">jvns.ca</a>
+				</small>
+
+			</li>
+			
+			<li>
+				<a href=https://jvns.ca/blog/2024/04/10/notes-on-git-error-messages/ target="_blank">
+					<h2>Notes on git's error messages</h2>
+				</a>
+				<br>
+				<small>
+					<time datetime="2024-04-10">2024-04-10</time>
+					|
+					<a href="https://jvns.ca" target="_blank">jvns.ca</a>
+				</small>
+
+			</li>
+			
+		</ol>
+	</main>
+	<footer>
+		<p>Last Updated On: 6/4/2025, 1:00:02 PM</p>
+		<p>This page aggregate the following feeds:</p>
+		<div class="feed-list">
+			
+			<div>
+				<a href="https://blog.smallweb.run/" target="_blank">Smallweb Blog</a>
+			</div>
+			
+			<div>
+				<a href="http://jvns.ca/atom.xml" target="_blank">Julia Evans</a>
+			</div>
+			
+		</div>
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>{{ id }}</id>
+    <title>Smallfeed</title>
+    <updated>2025-06-04T13:00:02.331Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <rights>NA</rights>
+    <entry>
+        <title type="html"><![CDATA[Standards for ANSI escape codes]]></title>
+        <id>https://jvns.ca/blog/2025/03/07/escape-code-standards/</id>
+        <link href="https://jvns.ca/blog/2025/03/07/escape-code-standards/"/>
+        <updated>2025-03-07T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to add a directory to your PATH]]></title>
+        <id>https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/</id>
+        <link href="https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"/>
+        <updated>2025-02-13T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Some terminal frustrations]]></title>
+        <id>https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/</id>
+        <link href="https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"/>
+        <updated>2025-02-05T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What's involved in getting a "modern" terminal setup?]]></title>
+        <id>https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/</id>
+        <link href="https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"/>
+        <updated>2025-01-11T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA["Rules" that terminal programs follow]]></title>
+        <id>https://jvns.ca/blog/2024/11/26/terminal-rules/</id>
+        <link href="https://jvns.ca/blog/2024/11/26/terminal-rules/"/>
+        <updated>2024-12-12T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why pipes sometimes get "stuck": buffering]]></title>
+        <id>https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/</id>
+        <link href="https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"/>
+        <updated>2024-11-29T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Importing a frontend Javascript library without a build system]]></title>
+        <id>https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/</id>
+        <link href="https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/"/>
+        <updated>2024-11-18T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New microblog with TILs]]></title>
+        <id>https://jvns.ca/blog/2024/11/09/new-microblog/</id>
+        <link href="https://jvns.ca/blog/2024/11/09/new-microblog/"/>
+        <updated>2024-11-09T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ASCII control characters in my terminal]]></title>
+        <id>https://jvns.ca/blog/2024/10/31/ascii-control-characters/</id>
+        <link href="https://jvns.ca/blog/2024/10/31/ascii-control-characters/"/>
+        <updated>2024-10-31T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using less memory to look up IP addresses in Mess With DNS]]></title>
+        <id>https://jvns.ca/blog/2024/10/27/asn-ip-address-memory/</id>
+        <link href="https://jvns.ca/blog/2024/10/27/asn-ip-address-memory/"/>
+        <updated>2024-10-27T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Some notes on upgrading Hugo]]></title>
+        <id>https://jvns.ca/blog/2024/10/07/some-notes-on-upgrading-hugo/</id>
+        <link href="https://jvns.ca/blog/2024/10/07/some-notes-on-upgrading-hugo/"/>
+        <updated>2024-10-07T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Terminal colours are tricky]]></title>
+        <id>https://jvns.ca/blog/2024/10/01/terminal-colours/</id>
+        <link href="https://jvns.ca/blog/2024/10/01/terminal-colours/"/>
+        <updated>2024-10-01T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Some Go web dev notes]]></title>
+        <id>https://jvns.ca/blog/2024/09/27/some-go-web-dev-notes/</id>
+        <link href="https://jvns.ca/blog/2024/09/27/some-go-web-dev-notes/"/>
+        <updated>2024-09-27T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reasons I still love the fish shell]]></title>
+        <id>https://jvns.ca/blog/2024/09/12/reasons-i--still--love-fish/</id>
+        <link href="https://jvns.ca/blog/2024/09/12/reasons-i--still--love-fish/"/>
+        <updated>2024-09-12T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Migrating Mess With DNS to use PowerDNS]]></title>
+        <id>https://jvns.ca/blog/2024/08/19/migrating-mess-with-dns-to-use-powerdns/</id>
+        <link href="https://jvns.ca/blog/2024/08/19/migrating-mess-with-dns-to-use-powerdns/"/>
+        <updated>2024-08-19T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go structs are copied on assignment (and other things about Go I'd missed)]]></title>
+        <id>https://jvns.ca/blog/2024/08/06/go-structs-copied-on-assignment/</id>
+        <link href="https://jvns.ca/blog/2024/08/06/go-structs-copied-on-assignment/"/>
+        <updated>2024-08-06T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Entering text in the terminal is complicated]]></title>
+        <id>https://jvns.ca/blog/2024/07/08/readline/</id>
+        <link href="https://jvns.ca/blog/2024/07/08/readline/"/>
+        <updated>2024-07-08T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reasons to use your shell's job control]]></title>
+        <id>https://jvns.ca/blog/2024/07/03/reasons-to-use-job-control/</id>
+        <link href="https://jvns.ca/blog/2024/07/03/reasons-to-use-job-control/"/>
+        <updated>2024-07-03T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New zine: How Git Works!]]></title>
+        <id>https://jvns.ca/blog/2024/04/25/new-zine--how-git-works-/</id>
+        <link href="https://jvns.ca/blog/2024/04/25/new-zine--how-git-works-/"/>
+        <updated>2024-06-03T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes on git's error messages]]></title>
+        <id>https://jvns.ca/blog/2024/04/10/notes-on-git-error-messages/</id>
+        <link href="https://jvns.ca/blog/2024/04/10/notes-on-git-error-messages/"/>
+        <updated>2024-04-10T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Smallweb 0.26]]></title>
+        <id>https://blog.smallweb.run/posts/v0-26/</id>
+        <link href="https://blog.smallweb.run/posts/v0-26/"/>
+        <updated>2025-04-30T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Smallweb 0.25]]></title>
+        <id>https://blog.smallweb.run/posts/v0-25/</id>
+        <link href="https://blog.smallweb.run/posts/v0-25/"/>
+        <updated>2025-03-31T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Smallweb 0.24]]></title>
+        <id>https://blog.smallweb.run/posts/v0-24/</id>
+        <link href="https://blog.smallweb.run/posts/v0-24/"/>
+        <updated>2025-03-03T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Smallweb 0.23]]></title>
+        <id>https://blog.smallweb.run/posts/v0-23/</id>
+        <link href="https://blog.smallweb.run/posts/v0-23/"/>
+        <updated>2025-02-25T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Smallweb 0.22]]></title>
+        <id>https://blog.smallweb.run/posts/v0-22/</id>
+        <link href="https://blog.smallweb.run/posts/v0-22/"/>
+        <updated>2025-02-17T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Smallweb 0.21]]></title>
+        <id>https://blog.smallweb.run/posts/v0-21/</id>
+        <link href="https://blog.smallweb.run/posts/v0-21/"/>
+        <updated>2025-02-12T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Smallweb 0.20]]></title>
+        <id>https://blog.smallweb.run/posts/v0-20/</id>
+        <link href="https://blog.smallweb.run/posts/v0-20/"/>
+        <updated>2025-01-09T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Smallweb 0.19]]></title>
+        <id>https://blog.smallweb.run/posts/v0-19/</id>
+        <link href="https://blog.smallweb.run/posts/v0-19/"/>
+        <updated>2024-12-16T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Smallweb 0.18]]></title>
+        <id>https://blog.smallweb.run/posts/v0-18/</id>
+        <link href="https://blog.smallweb.run/posts/v0-18/"/>
+        <updated>2024-12-09T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My Smallweb Setup]]></title>
+        <id>https://blog.smallweb.run/posts/my-smallweb-setup/</id>
+        <link href="https://blog.smallweb.run/posts/my-smallweb-setup/"/>
+        <updated>2024-12-03T00:00:00.000Z</updated>
+    </entry>
+</feed>
