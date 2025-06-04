@@ -27,7 +27,7 @@ export default tinyfeed;
 
 Then use `smallweb run tinyfeed` to generate the feed. You can automate the feed generation using a cron job:
 
-```json
+```jsonc
 // $SMALLWEB_DIR/smallfeed/smallweb.json
 {
     "crons": [
