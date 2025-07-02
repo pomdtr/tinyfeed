@@ -1,4 +1,4 @@
-import { Tinyfeed } from "jsr:@pomdtr/tinyfeed";
+import { Tinyfeed } from "./pkg/mod.ts";
 import { createStorage } from "https://esm.sh/unstorage";
 import fsDriver from "https://esm.sh/unstorage/drivers/fs-lite"
 
