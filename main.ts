@@ -16,4 +16,3 @@ const tinyfeed = new Tinyfeed({
 })
 
 export default tinyfeed;
-
