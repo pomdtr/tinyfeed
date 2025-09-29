@@ -50,29 +50,34 @@ export class Tinyfeed {
     build: () => Promise<void> = async () => {
         const items: Item[] = []
         const feeds = await Promise.all(this.opts.feeds.map(async (feedUrl) => {
-            const resp = await fetch(feedUrl)
-
-            if (!resp.ok) {
-                console.error(`Failed to fetch feed ${feedUrl}: ${resp.status} ${resp.statusText}`)
-                return null
-            }
-
-            const feed = await this.parser.parseString(await resp.text())
-            for (const item of feed.items) {
-                if (!item.link) {
-                    continue
+            try {
+                const resp = await fetch(feedUrl)
+                if (!resp.ok) {
+                    throw new Error(`Failed to fetch feed: ${resp.status} ${resp.statusText}`)
                 }
 
-                items.push({
-                    title: item.title || "",
-                    link: item.link,
-                    publication: item.pubDate ? new Date(item.pubDate).toISOString().split('T')[0] : null,
-                    domain: new URL(item.link).hostname
-                })
-            }
+                const feed = await this.parser.parseString(await resp.text())
+                for (const item of feed.items) {
+                    if (!item.link) {
+                        continue
+                    }
 
-            return feed
+                    items.push({
+                        title: item.title || "",
+                        link: item.link,
+                        publication: item.pubDate ? new Date(item.pubDate).toISOString().split('T')[0] : null,
+                        domain: new URL(item.link).hostname
+                    })
+                }
+
+                return feed
+            } catch (err) {
+                console.error(`Error fetching/parsing feed ${feedUrl}: ${err}`)
+                return null
+            }
         }))
+
+
 
 
         const feed = new Feed({

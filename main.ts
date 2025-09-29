@@ -1,6 +1,6 @@
+import { createStorage } from "https://esm.sh/unstorage@1.16.1";
+import fsDriver from "https://esm.sh/unstorage@1.16.1/drivers/fs-lite";
 import { Tinyfeed } from "./pkg/mod.ts";
-import { createStorage } from "https://esm.sh/unstorage";
-import fsDriver from "https://esm.sh/unstorage/drivers/fs-lite"
 
 const storage = createStorage({
     driver: fsDriver({ base: "./data" }),
