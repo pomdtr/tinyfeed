@@ -51,12 +51,7 @@ export class Tinyfeed {
         const items: Item[] = []
         const feeds = await Promise.all(this.opts.feeds.map(async (feedUrl) => {
             try {
-                const resp = await fetch(feedUrl)
-                if (!resp.ok) {
-                    throw new Error(`Failed to fetch feed: ${resp.status} ${resp.statusText}`)
-                }
-
-                const feed = await this.parser.parseString(await resp.text())
+                const feed = await this.parser.parseURL(feedUrl)
                 for (const item of feed.items) {
                     if (!item.link) {
                         continue
